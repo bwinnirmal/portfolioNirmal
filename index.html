@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirmal Prajapati</title>
+    <meta name="author" content="Nirmal Prajapati | Freelance web developer">
+    <meta name="description" content="Hi, I'm Nirmal Prajapati, a skilled front-end developer proficient in HTML, CSS, JavaScript, and Bootstrap. With a passion for crafting engaging and interactive user experiences, I bring creative designs to life and ensure seamless functionality across various web platforms. Through my strong command of these technologies, I continuously strive to build user-friendly and visually appealing websites that leave a lasting impression. Let's collaborate and transform your ideas into stunning digital realities!">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Front-end Developer, Web Development, User Experience, UI Design, Responsive Web Design, Cross-Browser Compatibility, Web Technologies, Frontend Frameworks, Frontend Libraries, Web Design, Frontend Coding, Frontend Optimization, Website Development, Mobile-First Design, Interactive Websites, Frontend Performance, Frontend Best Practices, Frontend Tools, Code Quality, Browser Developer Tools.">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/nihory-fav.png"/>
+
+    <!------------------ External CSS ------------------>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Particle js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!------------------ Box Icons ------------------>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- jquery cdn link -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- magnific popup -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <!------------------------- Loading Screen start ------------------------------->
+    <div class="loading">
+        <div class="gooey">
+            <span class="dot"></span>
+            <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
+    </div>
+    <!------------------------- Loading Screen ends ------------------------------->
+
+    <!------------------------ Header starts from here ----------------------->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Nirmal</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"> <a href="#home" class="nav__link active"> Home </a></li>
+                    <li class="nav__item"> <a href="#about" class="nav__link"> About </a></li>
+                    <!-- <li class="nav__item"> <a href="blog.html" class="nav__link"> Blog </a></li> -->
+                    <li class="nav__item"> <a href="#skills" class="nav__link"> Skills </a></li>
+                    <li class="nav__item"> <a href="#services" class="nav__link"> Services </a></li>
+                    <li class="nav__item"> <a href="#works" class="nav__link"> Works </a></li>
+                    <li class="nav__item"> <a href="#contact" class="nav__link"> Contact </a></li>
+                    <!-- Dark mode switch -->
+                    <li class="nav__item"> 
+                        <input type="checkbox" class="l-d-mode" id="l-d-mode" >
+                        <label for="l-d-mode" class="l-d-label">
+                            <i class='bx bxs-moon'></i>
+                            <i class='bx bxs-sun' ></i>
+                            <div class="ball"></div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!------------------------ Header ends from here ----------------------->
+
+    <!------------------------ Body starts from here ----------------------->
+    <main class="l-main">
+        <!------------------- Home Section Starts from here ------------------->
+        <section class="home" id="home">
+            <!----------------------- Particles ---------------------->
+            <div id="particles-js"></div>
+            <!----------------------- Particles ---------------------->
+
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="img/nirmalpotrait.jpg" alt="Nirmal Prajapati" title="Nirmal Prajapati">
+                    </div>
+
+                    <h1 class="home__title">Nirmal Prajapati</h1>
+                    <span class="home__profession">Frontend Developer</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/bwinnirmal/" class="home__social-link"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/bwinnirmal/bwinnirmal" class="home__social-link"><i class='bx bxl-github' ></i></a>
+                        <a href="https://facebook.com/nirmalprajapati9799" class="home__social-link"><i class='bx bxl-facebook' ></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=918000999345" class="home__social-link"><i class='bx bxl-whatsapp' ></i></a>
+                    </div>
+
+                    <a download="resume/nihory resume.pdf" href="resume/nirmal_resume.pdf" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+        <!------------------- Home Section Ends from here ------------------->
+
+
+        <!-------------------------- About Section Start from here ---------------------------->
+        <section class="about section" id="about">
+            <span class="section-subtitle">My intro</span>
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Hello there, I'm Nirmal Prajapati, a passionate front-end developer with a knack for crafting visually stunning and interactive web experiences. 
+                        <br>
+                        <br>
+                        With a solid foundation in HTML, CSS, JavaScript, and Bootstrap, I take pride in my ability to translate design concepts into seamless, user-friendly interfaces. My love for web development extends to ensuring cross-browser compatibility and responsive design, providing a smooth experience across all devices.
+                        <br> 
+                        <br> 
+                        Constantly exploring new frontend technologies and best practices, I'm dedicated to delivering top-notch code quality and optimizing performance. Let's collaborate and bring your web projects to life with creativity and innovation!
+                    </p>
+                    <img src="img/nirmalpotrait.jpg" alt="Nihory Berst" title="Nihory Berst" class="about__img">
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-user about__information-icon'></i>
+                            <span>Nirmal Prajapati</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-phone about__information-icon'></i>
+                            <span>+91 8000999345</span>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-envelope about__information-icon'></i>
+                            <span>prajapatinirmal9@gmail.com</span>
+                        </div>
+                    </div>
+    
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experience and support</h3>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-medal about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">1.5 Years Freelance</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class='bx bxs-briefcase about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">3+ Projects</span>
+                                <span class="about__information-subtitle-small">Completed</span>
+                            </div>
+                        </div>
+    
+                        <div class="about__information-data">
+                            <i class='bx bx-support about__information-icon'></i>
+                            <div>
+                                <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------- About Section Ends from here ---------------------------->
+
+
+        <!---------------------- Skills Section Start from here ------------------------->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Html/CSS</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__js"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Bootstrap</span>
+                        <span class="skills__number">85%</span>
+                        <span class="skills__bar skills__react"></span>
+                    </div>
+
+                    <!-- <div class="skills__data">
+                        <span class="skills__name">Angular</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__angular"></span>
+                    </div> -->
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <!-- <span class="skills__name">Php</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__php"></span> -->
+                        <span class="skills__name learning__php">
+                            Learning PHP
+                        </span>
+                    </div>
+
+                    <!-- <div class="skills__data">
+                        <span class="skills__name">Node JS</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__node"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Firebase</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__firebase"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__python"></span>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!---------------------- Skills Section Ends from here ------------------->
+
+        <!----------------------- Education Section Start from here ------------------>
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2012 - 2013</h3>
+                        <span class="education__university">Swami Narayan Vidhyadham</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">HSC/12th Exam</h3>
+                        <span class="education__specialty">School</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2020 - 2021</h3>
+                        <span class="education__university">TOPS, Technology</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Web Design</h3>
+                        <span class="education__specialty">Front-End</span>
+                    </div>
+                </div>
+
+                <!-- <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2018 - 2020</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Design Diploma</h3>
+                        <span class="education__specialty">UI/UX</span>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!----------------------- Education Section Ends from here ------------------>
+
+        <!----------------------- Services Section Starts from here------------------->
+        <section class="services section" id="services">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class="bx bx-code service__icon"></i>
+                    <h3 class="services__title">Web Design</h3>
+                    <p class="services__description">I can Create professional and dynamic websites using HTML, CSS, JavaScript, and Bootstrap.I ensure that every website I create is not only aesthetically pleasing but also highly functional. Whether it's a personal portfolio, a business website, or an e-commerce platform, I have the expertise to tailor the design to meet your specific goals.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-pen service__icon"></i>
+                    <h3 class="services__title">Web Hosting</h3>
+                    <p class="services__description">I Will offer top-notch web hosting services for your websites and applications. With a strong focus on performance, security, and uptime, I ensure that your online presence is always accessible and running smoothly.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-brush service__icon"></i>
+                    <h3 class="services__title">Server/Website Migration</h3>
+                    <p class="services__description">Hello, I'm Nirmal Prajapati, a dedicated professional with expertise in server and website migration services. If you're planning to upgrade your infrastructure or move to a new hosting provider, I am here to make the transition smooth and hassle-free.</p>
+                </div>
+
+                <!-- <div class="services__content">
+                    <i class="bx bx-server service__icon"></i>
+                    <h3 class="services__title">Backend Development</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolores tempora.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-pencil service__icon"></i>
+                    <h3 class="services__title">Content Writing</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolores tempora.</p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-mobile service__icon"></i>
+                    <h3 class="services__title">Interface Movil</h3>
+                    <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolores tempora.</p>
+                </div> -->
+            </div>
+        </section>
+        <!----------------------- Services Section Ends from here------------------->
+
+        <!------------------------ Project in Mind Starts from here ------------------------->
+        <section class="project section">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">Do you have a project in mind</h2>
+                    <p class="project__description">
+                        Let's discuss your project vision and goals. Together, we'll shape your ideas into an engaging and functional digital masterpiece. Contact me now, and let's get started on bringing your project to life!"
+                    </p>
+                    <a href="https://api.whatsapp.com/send/?phone=918000999345" class="button button__light">Contact Me</a>
+                </div>
+
+                <img src="img/nirmalbgPng.png" title="Nirmal Prajapati" alt="Nirmal Prajapati" class="project__img">
+            </div>
+        </section>
+        <!------------------------ Project in Mind Ends from here ------------------------->
+
+
+        <!--------------------------- Works Section Start from here -------------->
+        <section class="works section" id="works">
+            <span class="section-subtitle">My portfolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="img/toolsbro.png" alt="Web Tool Site" title="Web Tool Site">
+
+                    <div class="works__data">
+                        <a href="https://toolsbro.in" target="_blank" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Toolsbro Web Tool Site</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="img/bookmyshow.png" alt="Web App" title="Web App">
+
+                    <div class="works__data">
+                        <a href="https://toolsbro.in/projects/bookmyshow_clone/" target="_blank" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">BookMyShow Clone With Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="img/pizzaSite.png" alt="E-commerce" title="E-commerce">
+
+                    <div class="works__data">
+                        <a href="https://toolsbro.in/projects/pizza_website_by_nirmal/" target="_blank" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Pizza Site</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="img/cash.png" alt="Agency Site" title="Agency Site">
+
+                    <div class="works__data">
+                        <a href="https://toolsbro.in/tools/cash_calculator/" target="_blank" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Cash Calculator Tool With JS</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="img/shoppingSite.png" alt="Network Site" title="Agency Site">
+
+                    <div class="works__data">
+                        <a href="img/shoppingSite.png" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Network Site</span>
+                    </div>
+                </div>
+
+                <!-- <div class="works__img">
+                    <img src="img/work-6.png" alt="Hosting Site" title="Hosting Site">
+
+                    <div class="works__data">
+                        <a href="img/work-6.png" class="works__link"><i class="bx bx-link-alt"></i></a>
+                        <span class="works__title">Payment Site</span>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!--------------------------- Works Section Ends from here -------------->
+
+        <!---------------------------- Contact Section Starts from here --------------->
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form method="POST" action="php/contactengine.php" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" name="Name" id="Name" placeholder="Name" class="contact__input" required>
+                        <input type="mail" name="Email" id="Email" placeholder="Email" class="contact__input" required>
+                    </div>
+
+                    <input type="text" name="Project" id="Project" placeholder="Project" class="contact__input">
+                    <textarea placeholder="Message" name="Message" id="Message" cols="0" rows="10" class="contact__input" required></textarea>
+                    <input type="submit" name="submit" value="Send Message" class="button contact__button">
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call Me</h3>
+                        <span class="contact__text">+91 8000999345</span>
+                        <!-- <span class="contact__text">+91 8746 657845</span> -->
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <span class="contact__text">prajapatinirmal9@gmail.com</span>
+                        <!-- <span class="contact__text">me@nihory.com</span> -->
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Location</h3>
+                        <span class="contact__text">Hathijan, Ahmedabad</span>
+                        <span class="contact__text">Gujrat, In</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------------------------- Contact Section Ends from here --------------->
+
+    </main>
+    <!------------------------ Body ends from here ----------------------->
+
+    <!------------------------ Footer starts from here ----------------------->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Nirmal Prajapati</h1>
+            <p class="footer-description">
+                Made With <i class='bx bxs-heart' ></i> In India
+            </p>
+
+            <div class="footer__social">
+                <a href="https://facebook.com/nirmalprajapati9799" class="footer__link"><i class="bx bxl-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=918000999345" class="footer__link"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/bwinnirmal/" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+            <p class="footer-copy">All rights reserved by Nirmal Prajapati - 2023</p>
+        </div>
+    </footer>
+    <!------------------------ Footer ends from here ----------------------->
+
+    <!------------------------- Javascript file ---------------------------->
+    <script src="js/script.js"></script>
+
+    <script type="text/javascript">
+        // <!---------------------------- Magnific popup start ------------------------>
+		// $(".works__container").magnificPopup({
+        //     delegate: 'a',
+		// 	type: 'image',
+		// 	gallery:{
+        //         enabled: true
+		// 	}
+        // });
+        // <!---------------------------- Magnific popup ends ------------------------>
+        
+        //----------------------- Particles js starts from here ---------------------------
+        particlesJS.load('particles-js', 'json/particles.json', function(){
+            console.log('Particles.json loaded');
+        });
+        //------------------------ Particles js ends from here ------------------------------
+    </script>
+</body>
+</html>
